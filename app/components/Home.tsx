@@ -104,6 +104,7 @@ const slides: Slide[] = [
    
 ]
 type Product = {
+  id: number;
   name: string;
   price: number;
   image: string;
@@ -111,55 +112,57 @@ type Product = {
 };
 
 const products: Product[] = [
-   {
+   { 
+    id: 1,
     name: "LAPIS Balancing Facial Oil",
     price: 15.00,
     image: "/p1.jpg",
     rating: 5,
   },
-  {
+  { id:2,
     name: "NOVA Turmeric + Niacinamide Bi-Phase Glow Facial Oil",
     price: 88.00,
     image: "/p2.jpg",
     rating: 2.5,
   },
    {
+    id:3,
     name: "NOVA 15% Vitamin C + Turmeric Brightening Serum",
     price: 18.00,
     image: "/p3.jpg",
     rating: 3,
   },
-   {
+   {id:4,
     name: "NOVA Turmeric + Niacinamide Bi-Phase Glow Facial Oil",
     price: 78.00,
     image: "/p3.jpg",
     rating: 3.5,
   },
-   {
+   {id:5,
     name: "NOVA Turmeric + Niacinamide Bi-Phase Glow Facial Oil",
     price: 68.00,
     image: "/p4.jpg",
     rating: 4,
   },
-   {
+   {id:6,
     name: "NOVA Turmeric + Niacinamide Bi-Phase Glow Facial Oil",
     price: 58.00,
     image: "/p5.jpg",
     rating: 4.5,
   },
-   {
+   {id:7,
     name: "TREMELLA Silky Hydration Gel Cream",
     price: 48.00,
     image: "/p6.jpg",
     rating: 5,
   },
-   {
+   {id:8,
     name: "NOVA Turmeric + Niacinamide Bi-Phase Glow Facial Oil",
     price: 38.00,
     image: "/p7.jpg",
     rating: 5.5,
   },
-   {
+   {id:9,
     name: "TREMELLA Silky Hydration Gel Cream",
     price: 28.00,
     image: "/p8.jpg",
