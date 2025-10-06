@@ -20,7 +20,7 @@ Include funzionalità complete di carrello, checkout, gestione account e interfa
 - Design responsive mobile-first
 
 ## 🔗 Live Demo
-👉 [Provalo su Vercel](https://tuo-progetto.vercel.app)
+👉 [([https://tuo-progetto.vercel.app]](https://e-commerce-web-app-xav6.vercel.app/)
 
 ## 📝 License
 Questo progetto è rilasciato sotto licenza MIT.
