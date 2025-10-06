@@ -1,3 +1,38 @@
+
+# 🛍️ E-commerce Web App
+
+Una web app di e-commerce realizzata con **Next.js, React, Context API e CSS Modules**.  
+Include funzionalità complete di carrello, checkout, gestione account e interfaccia responsive.
+
+## 🚀 Tecnologie
+- Next.js
+- React
+- Context API
+- CSS Modules
+- Vercel (per deploy)
+
+
+## ⚡ Funzionalità
+- Navigazione e ricerca prodotti
+- Carrello con aggiunta/rimozione
+- Checkout con riepilogo ordine
+- Gestione account e profilo utente
+- Design responsive mobile-first
+
+## 🔗 Live Demo
+👉 [Provalo su Vercel](https://tuo-progetto.vercel.app)
+
+## 📝 License
+Questo progetto è rilasciato sotto licenza MIT.
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
