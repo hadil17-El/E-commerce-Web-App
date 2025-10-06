@@ -1,0 +1,40 @@
+.about {
+    display: flex;
+    padding: 6rem 2rem;
+  
+    background-image: url("/about.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    column-rule: #ffff;
+    text-align: center;    
+}
+.overlay{
+    background: rgba(0,0,0,0.5);
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 116px auto;
+}
+.overlay h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+.btn {
+    padding: 0.8rem 2rem;
+      color: #d6d5d5;
+    cursor: pointer;
+    background: #f7f1e5;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background: #f1b650;
+}

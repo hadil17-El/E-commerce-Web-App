@@ -1,0 +1,120 @@
+.navbar {
+  width: 100%;
+  background: white;
+  padding: 4rem 2rem;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    font-weight: 700;
+}
+.links {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.links li a:hover {
+  color: gray;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.menutoggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.icons span {
+  transition: font-size 0.3s ease-in-out;
+  background: transparent;
+  font-size: 0.9rem;
+}
+.icons span:hover {
+  box-shadow: 0 13px 12px #a0a0a0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.currencyOpen {
+  cursor: pointer;
+}
+.account,.ricerca,.cart {
+  transition: box-shadow .3s ease-in-out;
+}
+.account:hover,.ricerca:hover,.cart:hover {
+box-shadow: 1px 2px 3px black;
+border-radius: 5px;
+}
+@media(max-width: 425px) {
+  .logo {font-size: 1.3rem;}
+  .menutoggle {
+    margin-left: 6px;
+  }
+    .links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all .5s ease-in-out;
+  }
+  .links.active {
+    display: flex;
+    max-height: 400px;
+    opacity: 1;
+    padding: 1rem 0;
+  }
+}
+@media (max-width: 768px) {
+  .links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .links.active {
+    display: flex;
+  }
+  .menutoggle {
+    display: block;
+  }
+}
